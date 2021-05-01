@@ -3,9 +3,9 @@ import pyupbit
 import datetime
 import requests
 
-access = "6PwBHITPpgeLxgj8wUIM6gHzDiixWltrISVyPS7v"        
-secret = "UmU3piFu0xJ7xUB3MkVt5BbdVt6DvG0dJ7TZVfVA"
-myToken = "xoxb-1991913874982-2011309235825-c2xkgyWJjJU1XERDPTmoBVKj"
+access = ""        
+secret = ""
+myToken = ""
 
 def post_message(token, channel, text):
     response = requests.post("https://slack.com/api/chat.postMessage",
